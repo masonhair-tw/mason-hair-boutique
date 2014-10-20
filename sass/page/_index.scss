@@ -1,0 +1,113 @@
+.designer-works {
+  @include pie-clearfix;
+  @include rhythm(4, 0, 0, 4);
+  text-align: center;
+  background: white image-url("white_wall_hash");
+  .designer-works-title {
+    h2 {
+      display: inline-block;
+      @include trailer();
+      padding-bottom: 6px;
+      color: $color-black;
+      border-bottom: 1px solid $color-black;
+    }
+  }
+  .designer {
+    @include unstyled-link;
+    display: block;
+    @include box-sizing(border-box);
+    float: left;
+    width: 50%;
+    padding: rhythm(.5);
+    &:hover .designer-name {
+      background-color: $color-black;
+    }
+  }
+  .designer-image {
+    display: block;
+    width: 100%;
+  }
+  .designer-name {
+    @include rhythm( 0, 1, 1, 0 );
+    text-align: center;
+    color: $text-gray-light;
+    background-color: $color-black-light;
+    @include transition(background-color .25s);
+  }
+
+  @include at-breakpoint($pad) {
+    .designer {
+      width: 25%;
+    }
+  }
+}
+
+.shop-intro {
+  @include pie-clearfix;
+  @include rhythm(4, 0, 0, 4);
+  .shop-intro-content {
+    text-align: center;
+    @include trailer(2);
+    h2 {
+      display: inline-block;
+      @include trailer();
+      padding-bottom: 6px;
+      color: $color-black;
+      border-bottom: 1px solid $color-black;
+    }
+  }
+  .shop-photo {
+    @include unstyled-link;
+    display: block;
+    @include box-sizing(border-box);
+    float: left;
+    width: 50%;
+    padding: rhythm(.5);
+    .shop-photo-wrap {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 0;
+      padding-top: 100%;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, .25) url('/images/banner-mask.png') repeat;
+      }
+      img {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        @include transition(transform .25s);
+
+      }
+      h3 {
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        padding: 9px 0 3px 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, .5);
+        @include translateY(-50%);
+      }
+      &:hover img {
+        @include scale(1.1);
+      }
+    }
+  }
+  @include at-breakpoint($pad) {
+    .shop-photo {
+      width: 25%;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+#{$page-container}, %container {
+	$container-style: fluid;
+	@include container($total-columns, $pad);
+}
+
+@include at-breakpoint($desktop) {
+	#{$page-container}, %container {
+		$container-style: magic;
+		@include set-container-width;
+		padding: 0 48px;
+	}
+}
+
+html, body {
+	height: 100%;
+}
+.wrap {
+	height: 100%;
+	color: $global-text-color;
+	.open-menu & {
+		overflow: hidden;
+	}
+}
+
+@include at-breakpoint($desktop) {
+	.open-menu .wrap {
+		overflow: auto;
+	}
+}

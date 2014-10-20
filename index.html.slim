@@ -1,0 +1,60 @@
+.hero
+  .hero-holder
+    #hero-carousel.carousel.slide data-ride="carousel"
+      ol.carousel-indicators
+        li.active data-target="#hero-carousel" data-slide-to="0"
+        li data-target="#hero-carousel" data-slide-to="1"
+        li data-target="#hero-carousel" data-slide-to="2"
+      .carousel-inner
+        .item.active
+          .hero-photo
+            img src="http://hhhhold.com/1480x500/#{rand(100)}"
+          .carousel-caption
+        - 2.times do
+          .item
+            .hero-photo
+              img src="http://hhhhold.com/1480x500/#{rand(100)}"
+            .carousel-caption
+      a.left.carousel-control href="#hero-carousel" data-slide="prev"
+        span.glyphicon.icon-prev
+      a.right.carousel-control href="#hero-carousel" data-slide="next"
+        span.glyphicon.icon-next
+
+.designer-works
+  .container
+    .designer-works-title
+      h2 DESIGNER WORKS
+    a.designer href="http://masonhairken.tumblr.com/"
+      img.designer-image src="/images/designer-ken.jpg" alt=""
+      .designer-name Ken
+    a.designer href="http://masonhairsen.tumblr.com/"
+      img.designer-image src="/images/designer-sen.jpg" alt=""
+      .designer-name 森
+    a.designer href="http://masonhairjacob.tumblr.com/"
+      img.designer-image src="/images/designer-jacob.jpg" alt=""
+      .designer-name Jacob
+    a.designer href="http://masonhair-tw.tumblr.com/"
+      img.designer-image src="/images/season-collection.jpg" alt=""
+      .designer-name season collection
+
+.shop-intro
+  .container
+    .shop-intro-content
+      h2 MASON HAIR BOUTIQUE
+      p 一磚一瓦，<br>像家一樣的堆砌而成，<br>讓每位顧客在這裡都可以找到，<br>屬於自己風格的歸屬！
+    a.shop-photo href="/images/shop-photo-1.jpg"
+      .shop-photo-wrap
+        img src="/images/shop-photo-1-small.jpg"
+        h3 櫃檯
+    a.shop-photo href="/images/shop-photo-2.jpg"
+      .shop-photo-wrap
+        img src="/images/shop-photo-2-small.jpg"
+        h3 座位
+    a.shop-photo href="/images/shop-photo-3.jpg"
+      .shop-photo-wrap
+        img src="/images/shop-photo-3-small.jpg"
+        h3 洗髮間
+    a.shop-photo href="/images/shop-photo-4.jpg"
+      .shop-photo-wrap
+        img src="/images/shop-photo-4-small.jpg"
+        h3 店面

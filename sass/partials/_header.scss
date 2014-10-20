@@ -1,0 +1,73 @@
+.header {
+  height: 48px;
+	background-color: $color-black;
+  .container { position: relative; }
+}
+
+.logo {
+  position: absolute;
+  z-index: 1000;
+  top: 0;
+  left: 50%;
+  margin-left: -55px;
+  padding: 9px 12px;
+  background-color: $color-black;
+	a {
+    display: block;
+    @include replace-text-with-svg("logo-small");
+  }
+}
+
+.menu-btn {
+	position: absolute;
+	left: 0;
+	width: 48px;
+	height: 48px;
+	background-color: transparent;
+	border: none;
+	&:focus {
+		outline: none;
+	}
+}
+
+.menu-btn-bar {
+	display: block;
+	width: 24px;
+	height: 2px;
+	margin: auto;
+	opacity: 1;
+	background-color: white;
+	@include transition(transform .5s, opacity .5s);
+	& + & {
+		margin-top: 6px;
+	}
+	@mixin first-and-last-bar-transform($degree) {
+		position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -1px 0 0 (-24px/2);
+    @include transform( rotate($degree) );
+	}
+	.open-menu & {
+    	&:first-child {
+    		@include first-and-last-bar-transform(45deg);
+    	}
+    	&:last-child {
+    		@include first-and-last-bar-transform(-45deg);
+    	}
+    	&:nth-child(2n) {
+      		opacity: 0;
+    	}
+  	}
+}
+
+@include at-breakpoint($desktop) {
+  .menu-btn {
+    display: none;
+  }
+  .logo {
+    margin-left: -79px;
+    padding: 15px 18px;
+    a { @include replace-text-with-svg("logo"); }
+  }
+}

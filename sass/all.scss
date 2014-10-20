@@ -1,0 +1,21 @@
+@import "core/normalize",
+        "core/setting",
+        "core/layout",
+        "core/helpers",
+        "core/typography",
+        "core/webfont";
+
+@import "partials/header",
+        "partials/menu",
+        "partials/main",
+        "partials/hero",
+        "partials/carousel",
+        "partials/page-header",
+        "partials/footer",
+        "partials/button",
+        "partials/common";
+
+@import "page/index",
+        "page/service",
+        "page/product",
+        "page/contact";
