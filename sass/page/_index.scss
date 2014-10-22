@@ -2,7 +2,7 @@
   @include pie-clearfix;
   @include rhythm(4, 0, 0, 4);
   text-align: center;
-  background: white image-url("white_wall_hash");
+  background: white url("/images/white_wall_hash.png");
   .designer-works-title {
     h2 {
       display: inline-block;
