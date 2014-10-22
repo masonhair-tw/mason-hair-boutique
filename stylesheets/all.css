@@ -239,7 +239,7 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #e3e
   .menu .nav-contact-info a { padding: 14px 8px 10px 8px; }
   .menu .nav-contact-info a:after { content: ""; position: absolute; left: 50%; bottom: 12px; width: 0; height: 1px; background-color: white; -webkit-transition: width 0.25s, left 0.25s; -moz-transition: width 0.25s, left 0.25s; -o-transition: width 0.25s, left 0.25s; transition: width 0.25s, left 0.25s; }
   .menu .nav-contact-info li a:before { top: 13px; } }
-.main { position: relative; left: 0; z-index: 2; min-height: 100%; background: white url('/images/white_wall_hash'); -webkit-transition: left 0.3s; -moz-transition: left 0.3s; -o-transition: left 0.3s; transition: left 0.3s; }
+.main { position: relative; left: 0; z-index: 2; min-height: 100%; background: white url('/images/white_wall_hash.png'); -webkit-transition: left 0.3s; -moz-transition: left 0.3s; -o-transition: left 0.3s; transition: left 0.3s; }
 .open-menu .main { left: 260px; }
 
 @media (min-width: 900px) { .main { position: static; } }
@@ -334,7 +334,7 @@ button:hover:active, button:hover:focus, .button:hover:active, .button:hover:foc
 
 .anti-alone-word { display: inline-block; }
 
-.designer-works { margin-top: 96px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 96px; text-align: center; background: white url('/images/white_wall_hash'); }
+.designer-works { margin-top: 96px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 96px; text-align: center; background: white url('/images/white_wall_hash.png'); }
 .designer-works:after { content: ""; display: table; clear: both; }
 .designer-works .designer-works-title h2 { display: inline-block; margin-bottom: 24px; padding-bottom: 6px; color: #272727; border-bottom: 1px solid #272727; }
 .designer-works .designer { color: inherit; text-decoration: inherit; cursor: inherit; display: block; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float: left; width: 50%; padding: 12px; }
@@ -377,7 +377,7 @@ button:hover:active, button:hover:focus, .button:hover:active, .button:hover:foc
 @media (min-width: 640px) { .product .product-item { width: 50%; } }
 @media (min-width: 900px) { .product .product-item { width: 33.333%; } }
 
-.contact-info { position: relative; padding-top: 1px; background-image: url('/images/header-bg-contact'); background-position: center center; background-size: cover; background-attachment: fixed; }
+.contact-info { position: relative; padding-top: 1px; background-image: url('/images/header-bg-contact.jpg'); background-position: center center; background-size: cover; background-attachment: fixed; }
 .contact-info:after { content: ""; display: table; clear: both; }
 .contact-info:after { content: ""; display: block; position: absolute; top: 0; bottom: 0; left: 0; right: 0; background: rgba(0, 0, 0, 0.2) url("/images/banner-mask.png") repeat; }
 .contact-info .contact-info-content { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; z-index: 1000; display: block; padding: 24px; margin: 192px auto; max-width: 420px; width: 100%; color: white; text-align: center; background-color: rgba(39, 39, 39, 0.9); -webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); -moz-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5); }
