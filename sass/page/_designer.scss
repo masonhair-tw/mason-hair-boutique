@@ -1,0 +1,50 @@
+.designer {
+  @include pie-clearfix;
+  overflow: hidden;
+  .ken, .jacob, .sen, .collection {
+    @include unstyled-link;
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-position: top center;
+    opacity: .9;
+    @include background-size(cover);
+    @include transition(opacity .25s);
+    &:hover {
+      opacity: 1;
+    }
+    span {
+      display: block;
+      position: absolute;
+      bottom: 24px;
+      left: 0;
+      right: 0;
+      @include adjust-font-size-to(48px);
+      color: white;
+      text-align: center;
+    }
+    @include at-breakpoint($pad) {
+      width: 50%;
+    }
+    @include at-breakpoint($desktop) {
+      width: 25%;
+      height: 550px;
+    }
+  }
+  .ken {
+    background-image: url("/images/designer-ken-bg.jpg");
+  }
+  .sen {
+    background-image: url("/images/designer-sen-bg.jpg");
+  }
+  .jacob {
+    background-image: url("/images/designer-jacob-bg.jpg");
+    background-position: center center;
+  }
+  .collection {
+    background-image: url("/images/designer-collection-bg.jpg");
+    background-position: center center;
+  }
+}
