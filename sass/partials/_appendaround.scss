@@ -1,0 +1,16 @@
+.out-header {
+  display: none;
+}
+.inner-header {
+  display: block;
+}
+
+@include at-breakpoint($desktop) {
+  .out-header {
+    display: block;
+  }
+  .inner-header {
+    display: none;
+  }
+
+}

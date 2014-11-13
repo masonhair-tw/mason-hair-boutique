@@ -1,5 +1,5 @@
 .product {
-  @include rhythm( 0, 2, 2, 0 );
+  @include rhythm( 0, 5, 5, 0 );
   .product-logo {
     display: block;
     margin: 0 auto;
@@ -20,14 +20,13 @@
       width: 100%;
     }
     .product-info {
-      @include rhythm( 0, 1, 1, 0 );
+      @include rhythm( 1, 1, 1, 0 );
       padding-left: 6px;
       padding-right: 6px;
       text-align: center;
-      color: $text-gray-light;
-      background-color: $color-black-light;
-      @include transition(background-color .25s);
-      .name-and-price { color: white; }
+      color: $text-gray;
+      background: url('/images/banner-mask.png') repeat;
+      .name-and-price { color: black; }
       .summary { @include adjust-font-size-to(13px);}
     }
     .product-intro {

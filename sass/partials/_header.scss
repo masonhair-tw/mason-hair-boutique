@@ -10,8 +10,9 @@
   top: 0;
   left: 50%;
   margin-left: -55px;
-  padding: 9px 12px;
+  padding: 12px 12px 9px;
   background-color: $color-black;
+  @include box-shadow(0px 2px 10px rgba($color-black, .25));
 	a {
     display: block;
     @include replace-text-with-svg("logo-small");
@@ -66,8 +67,13 @@
     display: none;
   }
   .logo {
-    margin-left: -79px;
-    padding: 15px 18px;
-    a { @include replace-text-with-svg("logo"); }
+    top: -55px;
+    margin-left: -80px;
+    padding: 40px 25px;
+    @include rotate(45deg);
+    a {
+      @include replace-text-with-svg("logo");
+      @include rotate(-45deg);
+    }
   }
 }

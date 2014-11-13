@@ -1,39 +1,19 @@
 .contact-info {
   @include pie-clearfix;
-  position: relative;
-  padding-top: 1px;
-  background-image: url("/images/header-bg-contact.jpg");
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  &:after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.2) url('/images/banner-mask.png') repeat;
-  }
+  @include rhythm(2, 0, 0, 2);
+  @include at-breakpoint($pad) { @include rhythm(7, 0, 0, 7); }
   .contact-info-content {
-    @include box-sizing(border-box);
-    position: relative;
-    z-index: 1000;
-    display: block;
-    padding: 24px;
-    margin: rhythm(8) auto;
-    max-width: 420px;
-    width: 100%;
-    color: white;
     text-align: center;
-    background-color: rgba($color-black, .9);
-    @include box-shadow(0px 5px 20px rgba(black, .5));
-  }
-  .info-title {
-    margin: rhythm(.5) 0;
-    padding-bottom: rhythm(.25);
-    border-bottom: 1px solid white;
+    @include trailer(2);
+    h2 {
+      display: inline-block;
+      @include trailer();
+      padding-bottom: 6px;
+      @include adjust-font-size-to(28px);
+      color: $color-black;
+      border-bottom: 1px solid $color-black;
+      @include at-breakpoint($pad) { @include adjust-font-size-to(42px); }
+    }
   }
   .contact-info-list {
     @include reset-box-model;
@@ -53,18 +33,22 @@
     @include box-sizing(border-box);
     position: relative;
     z-index: 1000;
-    padding: 12px 24px 3px;
+    padding: 9px 12px 3px;
     margin: rhythm(1) auto;
     max-width: 420px;
     width: 100%;
-    color: white;
+    @include adjust-font-size-to(21px);
+    color: black;
     text-align: center;
-    background-color: rgba($color-black, .9);
-    @include box-shadow(0px 5px 20px rgba(black, .5));
+    background-color: rgba(white, .9);
+    @include at-breakpoint($pad) {
+      padding: 18px 24px 6px;
+      @include adjust-font-size-to(34px);
+    }
   }
   #gmap {
-    margin-top: -102px;
-    min-height: 500px;
+    margin-top: -128px;
+    min-height: 600px;
     img { max-width: none; }
   }
 }

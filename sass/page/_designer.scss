@@ -1,50 +1,81 @@
 .designer {
   @include pie-clearfix;
   overflow: hidden;
+  @include rhythm( 0, 2, 2, 0 );
   .ken, .jacob, .sen, .collection {
+    @include pie-clearfix;
     @include unstyled-link;
     display: block;
-    float: left;
-    position: relative;
-    width: 100%;
-    height: 400px;
-    background-position: top center;
-    opacity: .9;
-    @include background-size(cover);
-    @include transition(opacity .25s);
-    &:hover {
-      opacity: 1;
-    }
-    span {
-      display: block;
-      position: absolute;
-      bottom: 24px;
-      left: 0;
-      right: 0;
-      @include adjust-font-size-to(48px);
-      color: white;
-      text-align: center;
-    }
+    @include leader();
+    @include trailer();
     @include at-breakpoint($pad) {
-      width: 50%;
+      @include leader(5);
+      @include trailer(5);
     }
-    @include at-breakpoint($desktop) {
-      width: 25%;
-      height: 550px;
+    .photo {
+      @include box-sizing(border-box);
+      position: relative;
+      height: 300px;
+      background-position: center center;
+      opacity: .9;
+      @include background-size(cover);
+      @include transition(opacity .25s);
+      @include at-breakpoint($pad) { width: 60%; }
+    }
+    .name {
+      @include box-sizing(border-box);
+      display: block;
+      position: relative;
+      background-color: white;
+      background-image: url('/images/banner-mask.png');
+      background-repeat: repeat;
+      @include transition(background-color .25s);
+      @include at-breakpoint($pad) { height: 300px; width: 40%; }
+      span {
+        display: block;
+        @include padding-leader(.5);
+        @include padding-trailer(.5);
+        text-align: center;
+        @include adjust-font-size-to(48px);
+        @include at-breakpoint($pad) {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          right: 0;
+          @include translateY(-50%);
+        }
+      }
+    }
+    &:hover {
+      .name { background-color: $color-gray-light; }
     }
   }
   .ken {
-    background-image: url("/images/designer-ken-bg.jpg");
+    .photo { background-image: url("/images/designer-ken-bg.jpg"); }
+    @include at-breakpoint($pad) {
+      .photo { float: left; }
+      .name { float: right; }
+    }
   }
   .sen {
-    background-image: url("/images/designer-sen-bg.jpg");
+    .photo { background-image: url("/images/designer-sen-bg.jpg"); }
+    @include at-breakpoint($pad) {
+      .photo { float: right; }
+      .name { float: left; }
+    }
   }
   .jacob {
-    background-image: url("/images/designer-jacob-bg.jpg");
-    background-position: center center;
+    .photo { background-image: url("/images/designer-jacob-bg.jpg"); }
+    @include at-breakpoint($pad) {
+      .photo { float: left; }
+      .name { float: right; }
+    }
   }
   .collection {
-    background-image: url("/images/designer-collection-bg.jpg");
-    background-position: center center;
+    .photo { background-image: url("/images/designer-collection-bg.jpg"); }
+    @include at-breakpoint($pad) {
+      .photo { float: right; }
+      .name { float: left; }
+    }
   }
 }

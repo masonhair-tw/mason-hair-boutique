@@ -1,60 +1,61 @@
-.hero
-  .hero-holder
-    #hero-carousel.carousel.slide data-ride="carousel"
-      ol.carousel-indicators
-        li.active data-target="#hero-carousel" data-slide-to="0"
-        li data-target="#hero-carousel" data-slide-to="1"
-        li data-target="#hero-carousel" data-slide-to="2"
-      .carousel-inner
-        .item.active
-          .hero-photo
-            img src="http://hhhhold.com/1480x500/#{rand(100)}"
-          .carousel-caption
-        - 2.times do
-          .item
-            .hero-photo
-              img src="http://hhhhold.com/1480x500/#{rand(100)}"
-            .carousel-caption
-      a.left.carousel-control href="#hero-carousel" data-slide="prev"
-        span.glyphicon.icon-prev
-      a.right.carousel-control href="#hero-carousel" data-slide="next"
-        span.glyphicon.icon-next
+.inner-header data-set="header_switch"
+  .hero
+    #hero-slider
+      - 3.times do |i|
+        .slider-item
+          img src="/images/banner-0#{i+1}.jpg"
 
 .designer-works
   .container
     .designer-works-title
-      h2 DESIGNER WORKS
+      h2 DESIGNER & WORKS
+      p 經驗與技術，加上熱血的心情與態度， <br>成就每一個鬼斧神工。
     a.designer href="http://ken.masonhair.com.tw/"
-      img.designer-image src="/images/designer-ken.jpg" alt=""
-      .designer-name Ken
+      .designer-image-wrap
+        img src="/images/designer-ken.jpg" alt=""
+        .designer-image-mask
+        .designer-name Ken
     a.designer href="http://sen.masonhair.com.tw/"
-      img.designer-image src="/images/designer-sen.jpg" alt=""
-      .designer-name 森
+      .designer-image-wrap
+        img src="/images/designer-sen.jpg" alt=""
+        .designer-image-mask
+        .designer-name 森
     a.designer href="http://jacob.masonhair.com.tw/"
-      img.designer-image src="/images/designer-jacob.jpg" alt=""
-      .designer-name Jacob
+      .designer-image-wrap
+        img src="/images/designer-jacob.jpg" alt=""
+        .designer-image-mask
+        .designer-name Jacob
     a.designer href="http://collection.masonhair.com.tw/"
-      img.designer-image src="/images/season-collection.jpg" alt=""
-      .designer-name season collection
+      .designer-image-wrap
+        img src="/images/season-collection.jpg" alt=""
+        .designer-image-mask
+        .designer-name collection
 
 .shop-intro
   .container
     .shop-intro-content
-      h2 MASON HAIR BOUTIQUE
-      p 一磚一瓦，<br>像家一樣的堆砌而成，<br>讓每位顧客在這裡都可以找到，<br>屬於自己風格的歸屬！
-    a.shop-photo href="/images/shop-photo-1.jpg"
-      .shop-photo-wrap
-        img src="/images/shop-photo-1-small.jpg"
-        h3 櫃檯
-    a.shop-photo href="/images/shop-photo-2.jpg"
-      .shop-photo-wrap
-        img src="/images/shop-photo-2-small.jpg"
-        h3 座位
-    a.shop-photo href="/images/shop-photo-3.jpg"
-      .shop-photo-wrap
-        img src="/images/shop-photo-3-small.jpg"
-        h3 洗髮間
-    a.shop-photo href="/images/shop-photo-4.jpg"
-      .shop-photo-wrap
-        img src="/images/shop-photo-4-small.jpg"
-        h3 店面
+      h2 OUR HOME
+      p 一磚一瓦，像家一樣的堆砌而成，<br>讓每位顧客在這裡都可以找到，屬於自己風格的歸屬！
+    .photo-slider
+      .photo-slider-for
+        - 9.times do |i|
+          .slider-item
+            img src="/images/photo/photo-0#{i+1}.jpg"
+        - 4.times do |i|
+          .slider-item
+            img src="/images/photo/photo-1#{i}.jpg"
+
+      .photo-slider-nav
+        - 9.times do |i|
+          .slider-item
+            img src="/images/photo/photo-0#{i+1}.jpg"
+        - 4.times do |i|
+          .slider-item
+            img src="/images/photo/photo-1#{i}.jpg"
+
+.index-google-map
+  .container
+    .map-title
+      h2 OUR LOCATION
+      p 我們在捷運信義安和站 2 號出口附近，<br>您可以在這裡找到我們。
+  #gmap
