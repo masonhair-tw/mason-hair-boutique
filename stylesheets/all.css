@@ -202,8 +202,8 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #e3e
 .open-menu .menu-btn-bar:nth-child(2n) { opacity: 0; }
 
 @media (min-width: 900px) { .menu-btn { display: none; }
-  .logo { top: -55px; margin-left: -80px; padding: 40px 25px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
-  .logo a { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo.png?1415907743'); background-repeat: no-repeat; background-position: 50% 50%; width: 108px; height: 78px; background-image: none, url('/images/logo.svg?1415907743'); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); } }
+  .logo { top: -55px; margin-left: -80px; padding: 40px 25px; }
+  .logo a { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo.png?1415907743'); background-repeat: no-repeat; background-position: 50% 50%; width: 108px; height: 78px; background-image: none, url('/images/logo.svg?1415907743'); } }
 .menu { position: absolute; top: 0; bottom: 0; z-index: 1; width: 260px; background-color: #272727; }
 .menu .nav-contact-info, .menu .nav { position: relative; z-index: 100; list-style: none; margin: 0; padding: 0; border: 0; }
 .menu .nav-contact-info li + li, .menu .nav li + li { border-top: 1px solid #414141; }
@@ -255,7 +255,7 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #e3e
 #hero-slider .slick-list { position: relative; overflow: hidden; display: block; margin: 0; padding: 0; }
 @media (min-width: 540px) { #hero-slider .slick-list { padding: 0 10%; } }
 @media (min-width: 1080px) { #hero-slider .slick-list { padding: 0 20%; } }
-#hero-slider .slider-item:after { background: rgba(0, 0, 0, 0.5) url("/images/banner-mask.png") repeat; opacity: 1; -webkit-transition: opacity 1s; -moz-transition: opacity 1s; -o-transition: opacity 1s; transition: opacity 1s; }
+#hero-slider .slider-item:after { background: rgba(0, 0, 0, 0.75) url("/images/banner-mask.png") repeat; opacity: 1; -webkit-transition: opacity 1s; -moz-transition: opacity 1s; -o-transition: opacity 1s; transition: opacity 1s; }
 #hero-slider .slider-item.slick-center:after { opacity: 0; }
 
 .photo-slider .photo-slider-for { margin: 12px; }
