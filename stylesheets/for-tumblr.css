@@ -30,8 +30,8 @@ html, body { height: 100%; background-color: #e3e3e3; }
 .open-menu .menu-btn-bar:nth-child(2n) { opacity: 0; }
 
 @media (min-width: 900px) { .menu-btn { display: none; }
-  .logo { top: -55px; margin-left: -80px; padding: 40px 25px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
-  .logo a { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo.png?1415907743'); background-repeat: no-repeat; background-position: 50% 50%; width: 108px; height: 78px; background-image: none, url('/images/logo.svg?1415907743'); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); } }
+  .logo { top: -55px; margin-left: -80px; padding: 40px 25px; }
+  .logo a { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo.png?1415907743'); background-repeat: no-repeat; background-position: 50% 50%; width: 108px; height: 78px; background-image: none, url('/images/logo.svg?1415907743'); } }
 .menu { position: absolute; top: 0; bottom: 0; z-index: 1; width: 260px; background-color: #272727; }
 .menu .nav-contact-info, .menu .nav { position: relative; z-index: 100; list-style: none; margin: 0; padding: 0; border: 0; }
 .menu .nav-contact-info li + li, .menu .nav li + li { border-top: 1px solid #414141; }

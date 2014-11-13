@@ -27,7 +27,7 @@
   }
   .slider-item {
     &:after {
-      background: rgba(0, 0, 0, .5) url('/images/banner-mask.png') repeat;
+      background: rgba(0, 0, 0, .75) url('/images/banner-mask.png') repeat;
       opacity: 1;
       @include transition(opacity 1s);
     }
