@@ -39,7 +39,7 @@
 
 .photo-slider {
   .photo-slider-for {
-    margin-bottom: 12px;
+    margin: 12px;
   }
   .photo-slider-nav {
     .slider-item {
@@ -53,6 +53,7 @@
         &:after { opacity: 0; }
       }
     }
+    .slick-list { margin-right: 2px; }
     .slick-next, .slick-prev { width: 40%; }
   }
 }
