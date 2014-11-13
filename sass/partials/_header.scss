@@ -70,6 +70,10 @@
     top: -55px;
     margin-left: -80px;
     padding: 40px 25px;
-    a { @include replace-text-with-svg("logo"); }
+    @include rotate(45deg);
+    a {
+      @include replace-text-with-svg("logo");
+      @include rotate(-45deg);
+    }
   }
 }
