@@ -158,7 +158,8 @@
     }
   }
   #gmap {
-    min-height: 600px;
+    min-height: 400px;
     img { max-width: none; }
+    @include at-breakpoint($pad) { min-height: 600px; }
   }
 }

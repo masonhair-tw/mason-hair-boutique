@@ -37,8 +37,10 @@
     margin-right: auto;
     text-align: center;
     background-position: top center;
-    background-attachment: fixed;
     @include background-size(cover);
+    @include at-breakpoint($pad) {
+      background-attachment: fixed;
+    }
   }
 }
 .page-header-title {
