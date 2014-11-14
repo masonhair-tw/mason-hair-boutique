@@ -270,7 +270,8 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #e3e
 .page-header:after { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
 @media (min-width: 900px) { .page-header:after { background: -webkit-gradient(linear, to right, to left, color-stop(15%, #000000), color-stop(35%, rgba(0, 0, 0, 0)), color-stop(65%, rgba(0, 0, 0, 0)), color-stop(85%, #000000)); background: -webkit-linear-gradient(to right, #000000 15%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0) 65%, #000000 85%); background: -moz-linear-gradient(to right, #000000 15%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0) 65%, #000000 85%); background: -o-linear-gradient(to right, #000000 15%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0) 65%, #000000 85%); background: linear-gradient(to right, #000000 15%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0) 65%, #000000 85%); } }
 .page-header .page-header-mask { position: absolute; z-index: 1000; top: 0; left: 0; right: 0; bottom: 0; }
-.page-header .page-header-inner { max-width: 1480px; margin-top: 0px; padding-top: 60px; padding-bottom: 120px; margin-bottom: 0px; margin-left: auto; margin-right: auto; text-align: center; background-position: top center; background-attachment: fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.page-header .page-header-inner { max-width: 1480px; margin-top: 0px; padding-top: 60px; padding-bottom: 120px; margin-bottom: 0px; margin-left: auto; margin-right: auto; text-align: center; background-position: top center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+@media (min-width: 640px) { .page-header .page-header-inner { background-attachment: fixed; } }
 
 .page-header-title { position: relative; z-index: 1000; display: inline-block; padding: 24px 48px; text-align: center; color: white; background-color: rgba(0, 0, 0, 0.75); }
 .page-header-title .en { margin-bottom: 18px; font-size: 52px; line-height: 72px; border-bottom: 1px solid #919191; }
@@ -337,8 +338,9 @@ button:hover:active, button:hover:focus, .button:hover:active, .button:hover:foc
 .index-google-map .map-title { text-align: center; margin-bottom: 48px; }
 .index-google-map .map-title h2 { display: inline-block; margin-bottom: 24px; padding-bottom: 6px; font-size: 28px; line-height: 48px; color: #272727; border-bottom: 1px solid #272727; }
 @media (min-width: 640px) { .index-google-map .map-title h2 { font-size: 42px; line-height: 48px; } }
-.index-google-map #gmap { min-height: 600px; }
+.index-google-map #gmap { min-height: 400px; }
 .index-google-map #gmap img { max-width: none; }
+@media (min-width: 640px) { .index-google-map #gmap { min-height: 600px; } }
 
 .designer { overflow: hidden; margin-top: 0px; padding-top: 48px; padding-bottom: 48px; margin-bottom: 0px; }
 .designer:after { content: ""; display: table; clear: both; }
@@ -399,5 +401,6 @@ button:hover:active, button:hover:focus, .button:hover:active, .button:hover:foc
 
 .google-map .map-title { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; z-index: 1000; padding: 9px 12px 3px; margin: 24px auto; max-width: 420px; width: 100%; font-size: 21px; line-height: 48px; color: black; text-align: center; background-color: rgba(255, 255, 255, 0.9); }
 @media (min-width: 640px) { .google-map .map-title { padding: 18px 24px 6px; font-size: 34px; line-height: 48px; } }
-.google-map #gmap { margin-top: -128px; min-height: 600px; }
+.google-map #gmap { margin-top: -128px; min-height: 400px; }
 .google-map #gmap img { max-width: none; }
+@media (min-width: 640px) { .google-map #gmap { min-height: 600px; } }
