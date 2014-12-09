@@ -36,7 +36,7 @@ if ( $('.photo-slider').length != 0 ) {
     asNavFor: '.photo-slider-nav'
   });
   $('.photo-slider-nav').slick({
-      slidesToShow: 7,
+      slidesToShow: 5,
       slidesToScroll: 1,
       asNavFor: '.photo-slider-for',
       dots: true,
