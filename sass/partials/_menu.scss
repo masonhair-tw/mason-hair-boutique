@@ -101,7 +101,8 @@
 		position: static;
 		width: auto;
 		margin: 0 auto;
-		@extend %container;
+		padding: 0 48px;
+		@include set-container-width;
 		.nav {
 			float: left;
 			li { float: left; }
