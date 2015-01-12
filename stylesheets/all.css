@@ -686,12 +686,12 @@ hr, .divider {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/logo-small.png?1418153331');
+  background-image: url('/images/logo-small.png?1420484469');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 87px;
   height: 65px;
-  background-image: none, url('/images/logo-small.svg?1418153331');
+  background-image: none, url('/images/logo-small.svg?1420484469');
 }
 
 /* line 22, ../sass/partials/_header.scss */
@@ -776,12 +776,12 @@ hr, .divider {
     text-indent: -119988px;
     overflow: hidden;
     text-align: left;
-    background-image: url('/images/logo.png?1418153331');
+    background-image: url('/images/logo.png?1420484469');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     width: 108px;
     height: 78px;
-    background-image: none, url('/images/logo.svg?1418153331');
+    background-image: none, url('/images/logo.svg?1420484469');
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -911,48 +911,48 @@ hr, .divider {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/icon-map.png?1418153331');
+  background-image: url('/images/icon-map.png?1420484469');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 24px;
   height: 24px;
-  background-image: none, url('/images/icon-map.svg?1418153331');
+  background-image: none, url('/images/icon-map.svg?1420484469');
 }
 /* line 93, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li.phone a:before {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/icon-phone.png?1418153331');
+  background-image: url('/images/icon-phone.png?1420484469');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 24px;
   height: 24px;
-  background-image: none, url('/images/icon-phone.svg?1418153331');
+  background-image: none, url('/images/icon-phone.svg?1420484469');
 }
 /* line 94, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li.line a:before {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/icon-line.png?1418153331');
+  background-image: url('/images/icon-line.png?1420484469');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 24px;
   height: 24px;
-  background-image: none, url('/images/icon-line.svg?1418153331');
+  background-image: none, url('/images/icon-line.svg?1420484469');
 }
 /* line 95, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li.fb-page a:before {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/icon-fb.png?1418153331');
+  background-image: url('/images/icon-fb.png?1420484469');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 24px;
   height: 24px;
-  background-image: none, url('/images/icon-fb.svg?1418153331');
+  background-image: none, url('/images/icon-fb.svg?1420484469');
 }
 
 @media (min-width: 900px) {
