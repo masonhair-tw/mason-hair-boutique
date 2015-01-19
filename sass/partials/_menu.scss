@@ -38,6 +38,12 @@
 				@include transition(opacity .25s);
 			}
 		}
+		.nav-home a:hover {
+			&:before {
+				content: "首頁";
+				opacity: 1;
+			}
+		}
 		.nav-designer a:hover {
 			&:before {
 				content: "設計師作品";
@@ -128,6 +134,7 @@
 					width: 100%;
 				}
 			}
+			.nav-home { display: none; }
 		}
 		.nav-contact-info {
 			float: right;
