@@ -686,12 +686,12 @@ hr, .divider {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/logo-small.png?1420484469');
+  background-image: url('/images/logo-small.png?1421050519');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 87px;
   height: 65px;
-  background-image: none, url('/images/logo-small.svg?1420484469');
+  background-image: none, url('/images/logo-small.svg?1421050519');
 }
 
 /* line 22, ../sass/partials/_header.scss */
@@ -776,12 +776,12 @@ hr, .divider {
     text-indent: -119988px;
     overflow: hidden;
     text-align: left;
-    background-image: url('/images/logo.png?1420484469');
+    background-image: url('/images/logo.png?1421050519');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     width: 108px;
     height: 78px;
-    background-image: none, url('/images/logo.svg?1420484469');
+    background-image: none, url('/images/logo.svg?1421050519');
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -847,50 +847,55 @@ hr, .divider {
   transition: opacity 0.25s;
 }
 /* line 42, ../sass/partials/_menu.scss */
+.menu .nav-contact-info .nav-home a:hover:before, .menu .nav .nav-home a:hover:before {
+  content: "首頁";
+  opacity: 1;
+}
+/* line 48, ../sass/partials/_menu.scss */
 .menu .nav-contact-info .nav-designer a:hover:before, .menu .nav .nav-designer a:hover:before {
   content: "設計師作品";
   opacity: 1;
 }
-/* line 48, ../sass/partials/_menu.scss */
+/* line 54, ../sass/partials/_menu.scss */
 .menu .nav-contact-info .nav-service a:hover:before, .menu .nav .nav-service a:hover:before {
   content: "服務項目";
   opacity: 1;
 }
-/* line 54, ../sass/partials/_menu.scss */
+/* line 60, ../sass/partials/_menu.scss */
 .menu .nav-contact-info .nav-product a:hover:before, .menu .nav .nav-product a:hover:before {
   content: "產品介紹";
   opacity: 1;
 }
-/* line 60, ../sass/partials/_menu.scss */
+/* line 66, ../sass/partials/_menu.scss */
 .menu .nav-contact-info .nav-contact a:hover:before, .menu .nav .nav-contact a:hover:before {
   content: "聯絡我們";
   opacity: 1;
 }
-/* line 66, ../sass/partials/_menu.scss */
+/* line 72, ../sass/partials/_menu.scss */
 .menu .nav-contact-info {
   padding-top: 12px;
   padding-left: 3px;
   border-top: 1px solid #414141;
 }
-/* line 71, ../sass/partials/_menu.scss */
+/* line 77, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li + li {
   border: none;
 }
-/* line 72, ../sass/partials/_menu.scss */
+/* line 78, ../sass/partials/_menu.scss */
 .menu .nav-contact-info a {
   padding: 7px 8px 5px 8px;
 }
-/* line 74, ../sass/partials/_menu.scss */
+/* line 80, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li.phone a,
 .menu .nav-contact-info li.line a {
   cursor: default;
 }
-/* line 77, ../sass/partials/_menu.scss */
+/* line 83, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li a {
   position: relative;
   padding-left: 24px;
 }
-/* line 80, ../sass/partials/_menu.scss */
+/* line 86, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li a:before {
   content: "";
   position: absolute;
@@ -902,61 +907,61 @@ hr, .divider {
   -o-transition: opacity 0.25s;
   transition: opacity 0.25s;
 }
-/* line 89, ../sass/partials/_menu.scss */
+/* line 95, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li a:hover:before {
   opacity: 1;
 }
-/* line 92, ../sass/partials/_menu.scss */
+/* line 98, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li.map a:before {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/icon-map.png?1420484469');
+  background-image: url('/images/icon-map.png?1421050518');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 24px;
   height: 24px;
-  background-image: none, url('/images/icon-map.svg?1420484469');
+  background-image: none, url('/images/icon-map.svg?1421050518');
 }
-/* line 93, ../sass/partials/_menu.scss */
+/* line 99, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li.phone a:before {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/icon-phone.png?1420484469');
+  background-image: url('/images/icon-phone.png?1421050518');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 24px;
   height: 24px;
-  background-image: none, url('/images/icon-phone.svg?1420484469');
+  background-image: none, url('/images/icon-phone.svg?1421050518');
 }
-/* line 94, ../sass/partials/_menu.scss */
+/* line 100, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li.line a:before {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/icon-line.png?1420484469');
+  background-image: url('/images/icon-line.png?1421050518');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 24px;
   height: 24px;
-  background-image: none, url('/images/icon-line.svg?1420484469');
+  background-image: none, url('/images/icon-line.svg?1421050518');
 }
-/* line 95, ../sass/partials/_menu.scss */
+/* line 101, ../sass/partials/_menu.scss */
 .menu .nav-contact-info li.fb-page a:before {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
-  background-image: url('/images/icon-fb.png?1420484469');
+  background-image: url('/images/icon-fb.png?1421050518');
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 24px;
   height: 24px;
-  background-image: none, url('/images/icon-fb.svg?1420484469');
+  background-image: none, url('/images/icon-fb.svg?1421050518');
 }
 
 @media (min-width: 900px) {
-  /* line 100, ../sass/partials/_menu.scss */
+  /* line 106, ../sass/partials/_menu.scss */
   .menu {
     position: static;
     width: auto;
@@ -964,24 +969,24 @@ hr, .divider {
     padding: 0 48px;
     max-width: 71em;
   }
-  /* line 106, ../sass/partials/_menu.scss */
+  /* line 112, ../sass/partials/_menu.scss */
   .menu .nav {
     float: left;
   }
-  /* line 108, ../sass/partials/_menu.scss */
+  /* line 114, ../sass/partials/_menu.scss */
   .menu .nav li {
     float: left;
   }
-  /* line 109, ../sass/partials/_menu.scss */
+  /* line 115, ../sass/partials/_menu.scss */
   .menu .nav li + li {
     border-top: none;
   }
-  /* line 110, ../sass/partials/_menu.scss */
+  /* line 116, ../sass/partials/_menu.scss */
   .menu .nav a:before {
     left: 0;
     text-align: center;
   }
-  /* line 114, ../sass/partials/_menu.scss */
+  /* line 120, ../sass/partials/_menu.scss */
   .menu .nav a:after {
     content: "";
     position: absolute;
@@ -995,30 +1000,34 @@ hr, .divider {
     -o-transition: width 0.25s, left 0.25s;
     transition: width 0.25s, left 0.25s;
   }
-  /* line 126, ../sass/partials/_menu.scss */
+  /* line 132, ../sass/partials/_menu.scss */
   .menu .nav a:hover:after {
     left: 0;
     width: 100%;
   }
-  /* line 132, ../sass/partials/_menu.scss */
+  /* line 137, ../sass/partials/_menu.scss */
+  .menu .nav .nav-home {
+    display: none;
+  }
+  /* line 139, ../sass/partials/_menu.scss */
   .menu .nav-contact-info {
     float: right;
     padding: 0;
     border-top: none;
   }
-  /* line 136, ../sass/partials/_menu.scss */
+  /* line 143, ../sass/partials/_menu.scss */
   .menu .nav-contact-info li {
     float: left;
   }
-  /* line 137, ../sass/partials/_menu.scss */
+  /* line 144, ../sass/partials/_menu.scss */
   .menu .nav-contact-info li + li {
     border-top: none;
   }
-  /* line 138, ../sass/partials/_menu.scss */
+  /* line 145, ../sass/partials/_menu.scss */
   .menu .nav-contact-info a {
     padding: 14px 8px 10px 8px;
   }
-  /* line 139, ../sass/partials/_menu.scss */
+  /* line 146, ../sass/partials/_menu.scss */
   .menu .nav-contact-info a:after {
     content: "";
     position: absolute;
@@ -1032,7 +1041,7 @@ hr, .divider {
     -o-transition: width 0.25s, left 0.25s;
     transition: width 0.25s, left 0.25s;
   }
-  /* line 150, ../sass/partials/_menu.scss */
+  /* line 157, ../sass/partials/_menu.scss */
   .menu .nav-contact-info li a:before {
     top: 13px;
   }
