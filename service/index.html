@@ -8,7 +8,8 @@
       MASON HAIR BOUTIQUE
     </title>
     <link href="/stylesheets/all.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/magnific_popup.css" media="screen" rel="stylesheet" type="text/css" /><!--[if IE]><link href="/stylesheets/ie.css" media="screen" rel="stylesheet" type="text/css" /><![endif]--><!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]--><meta content="MASON HAIR BOUTIQUE" property="og:title">
+    <link href="/stylesheets/magnific_popup.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/vender/slick/slick.css" media="screen" rel="stylesheet" type="text/css" /><!--[if IE]><link href="/stylesheets/ie.css" media="screen" rel="stylesheet" type="text/css" /><![endif]--><!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script><![endif]--><meta content="MASON HAIR BOUTIQUE" property="og:title">
     <meta content="MASON HAIR BOUTIQUE" property="og:site_name">
     <meta content="http://localhost:3750" property="og:url">
     <meta content="http://localhost:3750/fb.png" property="og:image">
@@ -18,10 +19,14 @@
   </head>
   <body>
     <div class="wrap">
+      <div class="out-header" data-set="header_switch"></div>
       <div class="menu">
         <ul class="nav">
+          <li class="nav-home">
+            <a href="/">HOME</a>
+          </li>
           <li class="nav-designer">
-            <a href="/">DESIGNER</a>
+            <a href="/designer/">DESIGNER</a>
           </li>
           <li class="nav-service">
             <a href="/service/">SERVICE</a>
@@ -62,17 +67,19 @@
           </div>
         </div>
         <div class="content">
-          <div class="page-header">
-            <div class="page-header-inner" style="background-image: url('/images/header-bg-service.jpg')">
-              <div class="container">
-                <h2 class="page-header-title">
-                  <div class="ch">
-                    服務項目
-                  </div>
-                  <div class="en">
-                    Service
-                  </div>
-                </h2>
+          <div class="inner-header" data-set="header_switch">
+            <div class="page-header">
+              <div class="page-header-inner" style="background-image: url('/images/header-bg-service.jpg')">
+                <div class="container">
+                  <h2 class="page-header-title">
+                    <div class="en">
+                      Service
+                    </div>
+                    <div class="ch">
+                      服務項目
+                    </div>
+                  </h2>
+                </div>
               </div>
             </div>
           </div>
@@ -93,10 +100,10 @@
                     洗髮
                   </li>
                   <li>
-                    300
+                    350
                   </li>
                   <li>
-                    300
+                    350
                   </li>
                 </ul>
                 <ul>
@@ -104,10 +111,10 @@
                     剪髮
                   </li>
                   <li>
-                    800 up
+                    900 up
                   </li>
                   <li>
-                    800 up
+                    900 up
                   </li>
                 </ul>
                 <ul>
@@ -115,10 +122,10 @@
                     染髮
                   </li>
                   <li>
-                    2200 up
+                    2400 up
                   </li>
                   <li>
-                    2600 up
+                    3000 up
                   </li>
                 </ul>
                 <ul>
@@ -126,10 +133,10 @@
                     雙色染
                   </li>
                   <li>
-                    2400 up
+                    2800 up
                   </li>
                   <li>
-                    2800 up
+                    3200 up
                   </li>
                 </ul>
                 <ul>
@@ -137,10 +144,10 @@
                     冷燙
                   </li>
                   <li>
-                    2400 up
+                    2600 up
                   </li>
                   <li>
-                    2800 up
+                    3000 up
                   </li>
                 </ul>
                 <ul>
@@ -148,10 +155,10 @@
                     熱燙
                   </li>
                   <li>
-                    3200 up
+                    3400 up
                   </li>
                   <li>
-                    3800 up
+                    4000 up
                   </li>
                 </ul>
                 <ul>
@@ -206,9 +213,13 @@
         </div>
       </div>
     </div>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
     <script src="/vender/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="/vender/jquery.magnific_popup.min.js" type="text/javascript"></script>
+    <script src="/vender/appendaround.js" type="text/javascript"></script>
+    <script src="/vender/slick/slick.js" type="text/javascript"></script>
+    <script src="/javascripts/gmap.js" type="text/javascript"></script>
     <script src="/javascripts/all.js" type="text/javascript"></script>
   </body>
 </html>
