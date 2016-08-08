@@ -190,7 +190,7 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #e3e
 .header .container { position: relative; }
 
 .logo { position: absolute; z-index: 1000; top: 0; left: 50%; margin-left: -55px; padding: 12px 12px 9px; background-color: #272727; -webkit-box-shadow: 0px 2px 10px rgba(39, 39, 39, 0.25); -moz-box-shadow: 0px 2px 10px rgba(39, 39, 39, 0.25); box-shadow: 0px 2px 10px rgba(39, 39, 39, 0.25); }
-.logo a { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo-small.png?1451978769'); background-repeat: no-repeat; background-position: 50% 50%; width: 87px; height: 65px; background-image: none, url('/images/logo-small.svg?1451978769'); }
+.logo a { display: block; text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo-small.png?1452181999'); background-repeat: no-repeat; background-position: 50% 50%; width: 87px; height: 65px; background-image: none, url('/images/logo-small.svg?1452181999'); }
 
 .menu-btn { position: absolute; left: 0; width: 48px; height: 48px; background-color: transparent; border: none; }
 .menu-btn:focus { outline: none; }
@@ -203,7 +203,7 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #e3e
 
 @media (min-width: 900px) { .menu-btn { display: none; }
   .logo { top: -55px; margin-left: -80px; padding: 40px 25px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
-  .logo a { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo.png?1451978769'); background-repeat: no-repeat; background-position: 50% 50%; width: 108px; height: 78px; background-image: none, url('/images/logo.svg?1451978769'); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); } }
+  .logo a { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/logo.png?1452181999'); background-repeat: no-repeat; background-position: 50% 50%; width: 108px; height: 78px; background-image: none, url('/images/logo.svg?1452181999'); -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); } }
 .menu { position: absolute; top: 0; bottom: 0; z-index: 1; width: 260px; background-color: #272727; }
 .menu .nav-contact-info, .menu .nav { position: relative; z-index: 100; list-style: none; margin: 0; padding: 0; border: 0; }
 .menu .nav-contact-info li + li, .menu .nav li + li { border-top: 1px solid #414141; }
@@ -222,10 +222,10 @@ hr, .divider { margin-top: 24px; margin-bottom: 24px; border-top: 1px solid #e3e
 .menu .nav-contact-info li a { position: relative; padding-left: 24px; }
 .menu .nav-contact-info li a:before { content: ""; position: absolute; top: 6px; left: 0; opacity: .6; -webkit-transition: opacity 0.25s; -moz-transition: opacity 0.25s; -o-transition: opacity 0.25s; transition: opacity 0.25s; }
 .menu .nav-contact-info li a:hover:before { opacity: 1; }
-.menu .nav-contact-info li.map a:before { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-map.png?1451978769'); background-repeat: no-repeat; background-position: 50% 50%; width: 24px; height: 24px; background-image: none, url('/images/icon-map.svg?1451978769'); }
-.menu .nav-contact-info li.phone a:before { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-phone.png?1451978769'); background-repeat: no-repeat; background-position: 50% 50%; width: 24px; height: 24px; background-image: none, url('/images/icon-phone.svg?1451978769'); }
-.menu .nav-contact-info li.line a:before { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-line.png?1451978769'); background-repeat: no-repeat; background-position: 50% 50%; width: 24px; height: 24px; background-image: none, url('/images/icon-line.svg?1451978769'); }
-.menu .nav-contact-info li.fb-page a:before { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-fb.png?1451978769'); background-repeat: no-repeat; background-position: 50% 50%; width: 24px; height: 24px; background-image: none, url('/images/icon-fb.svg?1451978769'); }
+.menu .nav-contact-info li.map a:before { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-map.png?1452181999'); background-repeat: no-repeat; background-position: 50% 50%; width: 24px; height: 24px; background-image: none, url('/images/icon-map.svg?1452181999'); }
+.menu .nav-contact-info li.phone a:before { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-phone.png?1452181999'); background-repeat: no-repeat; background-position: 50% 50%; width: 24px; height: 24px; background-image: none, url('/images/icon-phone.svg?1452181999'); }
+.menu .nav-contact-info li.line a:before { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-line.png?1452181999'); background-repeat: no-repeat; background-position: 50% 50%; width: 24px; height: 24px; background-image: none, url('/images/icon-line.svg?1452181999'); }
+.menu .nav-contact-info li.fb-page a:before { text-indent: -119988px; overflow: hidden; text-align: left; background-image: url('/images/icon-fb.png?1452181999'); background-repeat: no-repeat; background-position: 50% 50%; width: 24px; height: 24px; background-image: none, url('/images/icon-fb.svg?1452181999'); }
 
 @media (min-width: 900px) { .menu { position: static; width: auto; margin: 0 auto; padding: 0 48px; max-width: 71em; }
   .menu .nav { float: left; }
@@ -346,23 +346,26 @@ button:hover:active, button:hover:focus, .button:hover:active, .button:hover:foc
 
 .designer { overflow: hidden; margin-top: 0px; padding-top: 48px; padding-bottom: 48px; margin-bottom: 0px; }
 .designer:after { content: ""; display: table; clear: both; }
-.designer .ken, .designer .jacob, .designer .sen, .designer .collection { color: inherit; text-decoration: inherit; cursor: inherit; display: block; margin-top: 24px; margin-bottom: 24px; }
-.designer .ken:after, .designer .jacob:after, .designer .sen:after, .designer .collection:after { content: ""; display: table; clear: both; }
-.designer .ken:active, .designer .ken:focus, .designer .jacob:active, .designer .jacob:focus, .designer .sen:active, .designer .sen:focus, .designer .collection:active, .designer .collection:focus { outline: none; }
-@media (min-width: 640px) { .designer .ken, .designer .jacob, .designer .sen, .designer .collection { margin-top: 120px; margin-bottom: 120px; } }
-.designer .ken .photo, .designer .jacob .photo, .designer .sen .photo, .designer .collection .photo { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; height: 300px; background-position: center center; opacity: .9; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; -webkit-transition: opacity 0.25s; -moz-transition: opacity 0.25s; -o-transition: opacity 0.25s; transition: opacity 0.25s; }
-@media (min-width: 640px) { .designer .ken .photo, .designer .jacob .photo, .designer .sen .photo, .designer .collection .photo { width: 60%; } }
-.designer .ken .name, .designer .jacob .name, .designer .sen .name, .designer .collection .name { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; position: relative; background-color: white; background-image: url("/images/banner-mask.png"); background-repeat: repeat; -webkit-transition: background-color 0.25s; -moz-transition: background-color 0.25s; -o-transition: background-color 0.25s; transition: background-color 0.25s; }
-@media (min-width: 640px) { .designer .ken .name, .designer .jacob .name, .designer .sen .name, .designer .collection .name { height: 300px; width: 40%; } }
-.designer .ken .name span, .designer .jacob .name span, .designer .sen .name span, .designer .collection .name span { display: block; padding-top: 12px; padding-bottom: 12px; text-align: center; font-size: 48px; line-height: 72px; }
-@media (min-width: 640px) { .designer .ken .name span, .designer .jacob .name span, .designer .sen .name span, .designer .collection .name span { position: absolute; top: 50%; left: 0; right: 0; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); } }
-.designer .ken:hover .name, .designer .jacob:hover .name, .designer .sen:hover .name, .designer .collection:hover .name { background-color: #e3e3e3; }
+.designer .ken, .designer .jacob, .designer .sen, .designer .york, .designer .collection { color: inherit; text-decoration: inherit; cursor: inherit; display: block; margin-top: 24px; margin-bottom: 24px; }
+.designer .ken:after, .designer .jacob:after, .designer .sen:after, .designer .york:after, .designer .collection:after { content: ""; display: table; clear: both; }
+.designer .ken:active, .designer .ken:focus, .designer .jacob:active, .designer .jacob:focus, .designer .sen:active, .designer .sen:focus, .designer .york:active, .designer .york:focus, .designer .collection:active, .designer .collection:focus { outline: none; }
+@media (min-width: 640px) { .designer .ken, .designer .jacob, .designer .sen, .designer .york, .designer .collection { margin-top: 120px; margin-bottom: 120px; } }
+.designer .ken .photo, .designer .jacob .photo, .designer .sen .photo, .designer .york .photo, .designer .collection .photo { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; position: relative; height: 300px; background-position: center center; opacity: .9; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; -webkit-transition: opacity 0.25s; -moz-transition: opacity 0.25s; -o-transition: opacity 0.25s; transition: opacity 0.25s; }
+@media (min-width: 640px) { .designer .ken .photo, .designer .jacob .photo, .designer .sen .photo, .designer .york .photo, .designer .collection .photo { width: 60%; } }
+.designer .ken .name, .designer .jacob .name, .designer .sen .name, .designer .york .name, .designer .collection .name { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: block; position: relative; background-color: white; background-image: url("/images/banner-mask.png"); background-repeat: repeat; -webkit-transition: background-color 0.25s; -moz-transition: background-color 0.25s; -o-transition: background-color 0.25s; transition: background-color 0.25s; }
+@media (min-width: 640px) { .designer .ken .name, .designer .jacob .name, .designer .sen .name, .designer .york .name, .designer .collection .name { height: 300px; width: 40%; } }
+.designer .ken .name span, .designer .jacob .name span, .designer .sen .name span, .designer .york .name span, .designer .collection .name span { display: block; padding-top: 12px; padding-bottom: 12px; text-align: center; font-size: 48px; line-height: 72px; }
+@media (min-width: 640px) { .designer .ken .name span, .designer .jacob .name span, .designer .sen .name span, .designer .york .name span, .designer .collection .name span { position: absolute; top: 50%; left: 0; right: 0; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); } }
+.designer .ken:hover .name, .designer .jacob:hover .name, .designer .sen:hover .name, .designer .york:hover .name, .designer .collection:hover .name { background-color: #e3e3e3; }
 .designer .ken .photo { background-image: url("/images/designer-ken-bg.jpg"); }
 @media (min-width: 640px) { .designer .ken .photo { float: left; }
   .designer .ken .name { float: right; } }
 .designer .sen .photo { background-image: url("/images/designer-sen-bg.jpg"); }
 @media (min-width: 640px) { .designer .sen .photo { float: right; }
   .designer .sen .name { float: left; } }
+.designer .york .photo { background-image: url("/images/designer-york-bg.jpg"); }
+@media (min-width: 640px) { .designer .york .photo { float: right; }
+  .designer .york .name { float: left; } }
 .designer .jacob .photo { background-image: url("/images/designer-jacob-bg.jpg"); }
 @media (min-width: 640px) { .designer .jacob .photo { float: left; }
   .designer .jacob .name { float: right; } }

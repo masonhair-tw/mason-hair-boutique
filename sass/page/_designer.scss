@@ -2,7 +2,7 @@
   @include pie-clearfix;
   overflow: hidden;
   @include rhythm( 0, 2, 2, 0 );
-  .ken, .jacob, .sen, .collection {
+  .ken, .jacob, .sen, .york, .collection {
     @include pie-clearfix;
     @include unstyled-link;
     display: block;
@@ -59,6 +59,13 @@
   }
   .sen {
     .photo { background-image: url("/images/designer-sen-bg.jpg"); }
+    @include at-breakpoint($pad) {
+      .photo { float: right; }
+      .name { float: left; }
+    }
+  }
+  .york {
+    .photo { background-image: url("/images/designer-york-bg.jpg"); }
     @include at-breakpoint($pad) {
       .photo { float: right; }
       .name { float: left; }
