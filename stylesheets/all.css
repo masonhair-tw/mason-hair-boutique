@@ -367,8 +367,8 @@ button:hover:active, button:hover:focus, .button:hover:active, .button:hover:foc
 @media (min-width: 640px) { .designer .york .photo { float: right; }
   .designer .york .name { float: left; } }
 .designer .jacob .photo { background-image: url("/images/designer-jacob-bg.jpg"); }
-@media (min-width: 640px) { .designer .jacob .photo { float: left; }
-  .designer .jacob .name { float: right; } }
+@media (min-width: 640px) { .designer .jacob .photo { float: right; }
+  .designer .jacob .name { float: left; } }
 .designer .collection .photo { background-image: url("/images/designer-collection-bg.jpg"); }
 @media (min-width: 640px) { .designer .collection .photo { float: right; }
   .designer .collection .name { float: left; } }
