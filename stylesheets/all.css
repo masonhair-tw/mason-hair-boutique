@@ -319,8 +319,8 @@ button:hover:active, button:hover:focus, .button:hover:active, .button:hover:foc
 .designer-works .designer .designer-image-wrap .designer-name { position: absolute; top: 50%; left: 0; right: 0; text-align: center; font-size: 25px; line-height: 48px; color: white; opacity: 0; -webkit-transition: opacity 0.25s; -moz-transition: opacity 0.25s; -o-transition: opacity 0.25s; transition: opacity 0.25s; -webkit-transform: translateY(-50%); -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); transform: translateY(-50%); }
 .designer-works .designer .designer-image-wrap:hover .designer-image-mask { opacity: 1; }
 .designer-works .designer .designer-image-wrap:hover .designer-name { opacity: 1; }
-@media (min-width: 640px) { .designer-works .designer { width: 50%; } }
-@media (min-width: 900px) { .designer-works .designer { width: 25%; } }
+@media (min-width: 640px) { .designer-works .designer { width: 33%; } }
+@media (min-width: 900px) { .designer-works .designer { width: 33%; } }
 
 .shop-intro { margin-top: 48px; padding-top: 0px; padding-bottom: 0px; margin-bottom: 48px; }
 .shop-intro:after { content: ""; display: table; clear: both; }
